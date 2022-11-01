@@ -4,7 +4,7 @@ import Header from './components/navbar';
 // import HomePage from './pages/Homepage';
 
 // Home
-const HomePage = React.lazy(() => import("./pages/Homepage"));
+const Blog = React.lazy(() => import("./pages/Blog"));
 // const Hometwo = React.lazy(() => import("./components/pages/Hometwo"));
 
 
@@ -27,7 +27,7 @@ function App() {
         <ScrollToTop>
           <Switch>
             {/* Home */}
-            <Route exact path="/" component={HomePage} />
+            <Route exact path="/" component={Blog} />
             {/* <Route exact path="/home-v2" component={Hometwo} /> */}
             
 

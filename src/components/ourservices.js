@@ -31,8 +31,8 @@ export default function LatestNews() {
                 <Typography variant="h3" sx={{ px: 11 }}>Latest news</Typography>
             </Grid>
             {/* <Grid> */}
-            <Grid container spacing={8} sx={{ px: 13, mt: -2 }}>
-                <Grid item xs={6} md={4}>
+            <Grid container xs={12} md={12} spacing={8} sx={{ px: 13, mt: -2 }}>
+                <Grid item xs={12} md={4}>
                     <Card sx={{ backgroundColor: "transparent", boxShadow: "none" }}>
                         <CardMedia
                             component="img"
@@ -54,7 +54,7 @@ export default function LatestNews() {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs={6} md={4}>
+                <Grid item xs={12} md={4}>
                     <Card sx={{ backgroundColor: "transparent", boxShadow: "none" }}>
                         <CardMedia
                             component="img"
@@ -76,7 +76,7 @@ export default function LatestNews() {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs={6} md={4}>
+                <Grid item xs={12} md={4}>
                     <Card sx={{ backgroundColor: "transparent", boxShadow: "none" }}>
                         <CardMedia
                             component="img"
@@ -100,8 +100,8 @@ export default function LatestNews() {
                 </Grid>
             </Grid>
 
-            <Grid container spacing={8} sx={{ px: 13, mt: -2 }}>
-                <Grid item xs={6} md={4}>
+            <Grid container spacing={8} xs={12} md={12} sx={{ px: 13, mt: -2 }}>
+                <Grid item xs={12} md={4}>
                     <Card sx={{ backgroundColor: "transparent", boxShadow: "none" }}>
                         <CardMedia
                             component="img"
@@ -123,7 +123,7 @@ export default function LatestNews() {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs={6} md={4}>
+                <Grid item xs={12} md={4}>
                     <Card sx={{ backgroundColor: "transparent", boxShadow: "none" }}>
                         <CardMedia
                             component="img"
@@ -145,7 +145,7 @@ export default function LatestNews() {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs={6} md={4}>
+                <Grid item xs={12} md={4}>
                     <Card sx={{ backgroundColor: "transparent", boxShadow: "none" }}>
                         <CardMedia
                             component="img"

@@ -12,14 +12,14 @@ import "./herosection.css"
 export default function HeroSection() {
     return (
         <Grid container spacing={2}>
-            <Grid item xs={6} md={12}>
+            <Grid item xs={12} md={12}>
                 <Typography sx={{textAlign: "center", mb: 1}}>Blog</Typography>
                 <Typography variant="h2" sx={{textAlign: "center", mb: 2}}>Thoughts and words</Typography>
             </Grid>
-            <Grid item xs={6} md={6} sx={{display: "flex", justifyContent: "center"}}>
+            <Grid item xs={12} md={6} sx={{display: "flex", justifyContent: "center"}}>
                 <img src={heroblog} alt="The homepage dashboard cards" />
             </Grid>
-            <Grid item xs={6} md={6}>
+            <Grid item xs={12} md={6}>
                 <Typography sx={{mb: 1, mt: 9, fontWeight: "bold", color: "#0A2640", fontFamily: "Open Sans"}}>Category <span style={{fontWeight: "normal", fontSize: "small"}}>November 22, 2021</span> </Typography>
                 <Typography variant="h2">Pitch termsheet backing <br />validation focus release.</Typography>
                 <Stack direction="row" spacing={2}>

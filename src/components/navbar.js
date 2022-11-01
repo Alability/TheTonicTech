@@ -29,9 +29,8 @@ function Header(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', background: "#E5E5E5" }}>
-      <Typography variant="h6" sx={{ my: 2, display: "flex" }}>
+      <Typography variant="h6" sx={{ my: 2, mx: 2, display: "flex" }}>
         <img src={Logo} alt="thetonictech" />
-        <Typography variant="h6">Boldo</Typography>
       </Typography >
       <Divider />
       <List>
