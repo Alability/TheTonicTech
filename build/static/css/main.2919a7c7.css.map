@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.2919a7c7.css","mappings":"4FAEA,QAEI,YAAY,CADZ,gCAEJ","sources":["components/navbar.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans&display=swap');\r\n\r\n.button {\r\n    font-family: 'Open Sans', sans-serif;\r\n    color: \"#000\"\r\n}"],"names":[],"sourceRoot":""}
